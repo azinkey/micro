@@ -1,0 +1,25 @@
+{
+    "name": "Micro",
+    "description": "A Micro Application Framework using Slim 3 with illuminate DB",
+    "type": "project",
+    "require": {
+        "slim/slim": "^3.9.2",
+        "slim/twig-view": "^2.3",
+        "slim/flash": "^0.4.0",
+        "slim/csrf": "^0.8.2",
+        "vlucas/valitron": "^1.4",
+        "illuminate/database": "^5.6",
+        "monolog/monolog": "^1.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Suraj Mishra",
+            "email": "suraj.mishra@kadamtech.com"
+        }
+    ]
+}
